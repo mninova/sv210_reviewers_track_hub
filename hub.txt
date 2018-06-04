@@ -1,0 +1,5 @@
+hub sv210_manuscript_reviewers_UCSC_session
+shortLabel UCSC browser tracks for reviewers only
+longLabel UCSC brower tracks for reviewers only
+genomesFile genomes.txt
+email ninova@caltech.edu

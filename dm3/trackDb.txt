@@ -1,0 +1,914 @@
+track KFT_total_RNA_plus
+type bigWig
+compositeTrack on
+shortLabel composite track of total RNA
+longLabel composite track of total RNA
+visibility full
+maxHeightPixels 30:30:11
+priority 10
+html examplePage
+
+		track bigWigRNASeq2_shSv210_totalRNA_r1_Index3.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN33_shSv210_totalRNA_r1_Index3.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel RNASeq2_plus_shSv210_totalRNA_r1 m1 v2
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+		
+		track bigWigMN31_shW_totalRNA_r1_Index1.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN31_shW_totalRNA_r1_Index1.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel RNASeq2_plus_shW_totalRNA_r1 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+		track bigWigMN32_shW_totalRNA_r2_Index2.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN32_shW_totalRNA_r2_Index2.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel RNASeq2_plus_shW_totalRNA_r2 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shSmt3_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL26_shSmt3_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel SUMO_shSmt3_RNAseq_1st.rRNAun.dm3 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shW_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL25_shW_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel SUMO_shW_RNAseq_1st.rRNAun.dm3 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shSmt3_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL28_shSmt3_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel SUMO_shSmt3_RNAseq_2nd.rRNAun.dm3 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+		track bigWigMN34_shSv210_totalRNA_r2_Index4.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN34_shSv210_totalRNA_r2_Index4.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel RNASeq2_plus_shSv210_totalRNA_r2 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shW_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.plus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL27_shW_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.plus.bigWig
+		shortLabel SUMO_shW_RNAseq_2nd.rRNAun.dm3 m1 
+		parent KFT_total_RNA_plus
+		viewLimits 0:10
+		color 100,0,100
+		type bigWig
+
+
+track KFT_total_RNA_minus
+type bigWig
+compositeTrack on
+shortLabel composite track of total RNA
+longLabel composite track of total RNA
+visibility full
+maxHeightPixels 30:30:11
+priority 10
+html examplePage
+
+		track bigWigMN33_shSv210_totalRNA_r1_Index3.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN33_shSv210_totalRNA_r1_Index3.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel RNASeq2_minus_shSv210_totalRNA_r1 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWigMN31_shW_totalRNA_r1_Index1.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN31_shW_totalRNA_r1_Index1.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel RNASeq2_minus_shW_totalRNA_r1 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWigMN32_shW_totalRNA_r2_Index2.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN32_shW_totalRNA_r2_Index2.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel RNASeq2_minus_shW_totalRNA_r2 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shSmt3_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL26_shSmt3_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel SUMO_shSmt3_RNAseq_1st.rRNAun.dm3 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shW_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL25_shW_RNAseq_1st.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel SUMO_shW_RNAseq_1st.rRNAun.dm3 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shSmt3_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL28_shSmt3_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel SUMO_shSmt3_RNAseq_2nd.rRNAun.dm3 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWigMN34_shSv210_totalRNA_r2_Index4.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/MN34_shSv210_totalRNA_r2_Index4.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel RNASeq2_minus_shSv210_totalRNA_r2 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+		track bigWig_SUMO_shW_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL27_shW_RNAseq_2nd.rRNAun.dm3.v2.m1.s.NH.norm.xminus.bigWig
+		shortLabel SUMO_shW_RNAseq_2nd.rRNAun.dm3 m1 
+		parent KFT_total_RNA_minus
+		viewLimits -10:0
+		color 100,0,100
+		type bigWig
+
+track composite_totRNA
+type bigWig
+compositeTrack on
+shortLabel composite track of total RNA
+longLabel composite track of total RNA
+visibility full
+maxHeightPixels 30:30:11
+priority 10
+html examplePage
+
+
+		track bigWigAC11_shSv210-2_rRNAdel_RNAseq.rRNAun.dm3.v2
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC11_shSv210-2_rRNAdel_RNAseq.rRNAun.dm3.v2.m1.s.NH.unstr.bigWig
+		shortLabel shSv210-2_rRNAdel_RNAseq.rRNAun.dm3 m1 v2
+		parent composite_totRNA
+		color 0,40,200
+		viewLimits 0:20
+		type bigWig
+
+		track bigWigAC10_shSv210-1_rRNAdel_RNAseq.rRNAun.dm3.v2
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC10_shSv210-1_rRNAdel_RNAseq.rRNAun.dm3.v2.m1.s.NH.unstr.bigWig
+		shortLabel shSv210-1_rRNAdel_RNAseq.rRNAun.dm3 m1 v2
+		parent composite_totRNA
+		color 0,40,200
+		viewLimits 0:20
+		type bigWig
+
+		track bigWigAC09_shW_rRNAdel_RNAseq.rRNAun.dm3.v2
+		bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC09_shW_rRNAdel_RNAseq.rRNAun.dm3.v2.m1.s.NH.unstr.bigWig
+		shortLabel shW_rRNAdel_RNAseq.rRNAun.dm3 m1 v2
+		parent composite_totRNA
+		color 0,40,200
+		viewLimits 0:20
+		type bigWig
+
+
+track superChip_uniquemappers
+superTrack on show
+shortLabel superTrackChIP unique
+longLabel This supertrack showshows ChIP data norm. with unique mappers
+html examplePage
+
+		track multiWigAC17_shW_H3K9.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K9
+		longLabel ChIP and Input track of shW_H3K9
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track AC15_shW_input.dm3.v21
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC15_shW_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input.dm3 m1 v2
+				longLabel shW_input.dm3 m1 v2
+				parent multiWigAC17_shW_H3K9.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC17_shW_H3K9.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC17_shW_H3K9.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_H3K9.dm3 m1 v2
+				longLabel shW_H3K9.dm3 m1 v2
+				parent multiWigAC17_shW_H3K9.dm3.v2
+				type bigWig
+				color 0,204,102
+
+
+		track multiWigAC19_shW_H3K4.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K4
+		longLabel ChIP and Input track of shW_H3K4
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 40
+
+				track AC15_shW_input.dm3.v22
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC15_shW_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input.dm3 m1 v2
+				longLabel shW_input.dm3 m1 v2
+				parent multiWigAC19_shW_H3K4.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC19_shW_H3K4.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC19_shW_H3K4.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_H3K4.dm3 m1 v2
+				longLabel shW_H3K4.dm3 m1 v2
+				parent multiWigAC19_shW_H3K4.dm3.v2
+				type bigWig
+				color 153,51,255
+
+
+		track multiWigAC21_shW_H3K36.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K36
+		longLabel ChIP and Input track of shW_H3K36
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 50
+
+				track AC15_shW_input.dm3.v23
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC15_shW_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input.dm3 m1 v2
+				longLabel shW_input.dm3 m1 v2
+				parent multiWigAC21_shW_H3K36.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC21_shW_H3K36.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC21_shW_H3K36.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_H3K36.dm3 m1 v2
+				longLabel shW_H3K36.dm3 m1 v2
+				parent multiWigAC21_shW_H3K36.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC23_shW_HP1.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_HP1
+		longLabel ChIP and Input track of shW_HP1
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 60
+
+				track AC15_shW_input.dm3.v24
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC15_shW_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input.dm3 m1 v2
+				longLabel shW_input.dm3 m1 v2
+				parent multiWigAC23_shW_HP1.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC23_shW_HP1.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC23_shW_HP1.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_HP1.dm3 m1 v2
+				longLabel shW_HP1.dm3 m1 v2
+				parent multiWigAC23_shW_HP1.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC25_shW_polII.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_polII
+		longLabel ChIP and Input track of shW_polII
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 30
+
+				track AC15_shW_input.dm3.v25
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC15_shW_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input.dm3 m1 v2
+				longLabel shW_input.dm3 m1 v2
+				parent multiWigAC25_shW_polII.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC25_shW_polII.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC25_shW_polII.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_polII.dm3 m1 v2
+				longLabel shW_polII.dm3 m1 v2
+				parent multiWigAC25_shW_polII.dm3.v2
+				type bigWig
+				color 0,128,255
+
+
+		track multiWigAC18_shSv210_H3K9.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_H3K9
+		longLabel ChIP and Input track of shSv210_H3K9
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track AC16_shSv210_input.dm3.v21
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC16_shSv210_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input.dm3 m1 v2
+				longLabel shSv210_input.dm3 m1 v2
+				parent multiWigAC18_shSv210_H3K9.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC18_shSv210_H3K9.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC18_shSv210_H3K9.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_H3K9.dm3 m1 v2
+				longLabel shSv210_H3K9.dm3 m1 v2
+				parent multiWigAC18_shSv210_H3K9.dm3.v2
+				type bigWig
+				color 0,204,102
+
+
+		track multiWigAC20_shSv210_H3K4.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_H3K4
+		longLabel ChIP and Input track of shSv210_H3K4
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 40
+
+				track AC16_shSv210_input.dm3.v22
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC16_shSv210_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input.dm3 m1 v2
+				longLabel shSv210_input.dm3 m1 v2
+				parent multiWigAC20_shSv210_H3K4.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC20_shSv210_H3K4.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC20_shSv210_H3K4.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_H3K4.dm3 m1 v2
+				longLabel shSv210_H3K4.dm3 m1 v2
+				parent multiWigAC20_shSv210_H3K4.dm3.v2
+				type bigWig
+				color 153,51,255
+
+
+		track multiWigAC22_shSv210_H3K36.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_H3K36
+		longLabel ChIP and Input track of shSv210_H3K36
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 50
+
+				track AC16_shSv210_input.dm3.v23
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC16_shSv210_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input.dm3 m1 v2
+				longLabel shSv210_input.dm3 m1 v2
+				parent multiWigAC22_shSv210_H3K36.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC22_shSv210_H3K36.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC22_shSv210_H3K36.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_H3K36.dm3 m1 v2
+				longLabel shSv210_H3K36.dm3 m1 v2
+				parent multiWigAC22_shSv210_H3K36.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC24_shSv210_HP1.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_HP1
+		longLabel ChIP and Input track of shSv210_HP1
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 60
+
+				track AC16_shSv210_input.dm3.v24
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC16_shSv210_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input.dm3 m1 v2
+				longLabel shSv210_input.dm3 m1 v2
+				parent multiWigAC24_shSv210_HP1.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC24_shSv210_HP1.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC24_shSv210_HP1.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_HP1.dm3 m1 v2
+				longLabel shSv210_HP1.dm3 m1 v2
+				parent multiWigAC24_shSv210_HP1.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC26_shSv210_polII.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_polII
+		longLabel ChIP and Input track of shSv210_polII
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 30
+
+				track AC16_shSv210_input.dm3.v25
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC16_shSv210_input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input.dm3 m1 v2
+				longLabel shSv210_input.dm3 m1 v2
+				parent multiWigAC26_shSv210_polII.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC26_shSv210_polII.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC26_shSv210_polII.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_polII.dm3 m1 v2
+				longLabel shSv210_polII.dm3 m1 v2
+				parent multiWigAC26_shSv210_polII.dm3.v2
+				type bigWig
+				color 0,128,255
+
+
+		track multiWigAC37_shW_H3K9_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K9_repeat
+		longLabel ChIP and Input track of shW_H3K9_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 25
+
+				track AC35_shW_input_repeat.dm3.v21
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC35_shW_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input_repeat.dm3 m1 v2
+				longLabel shW_input_repeat.dm3 m1 v2
+				parent multiWigAC37_shW_H3K9_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC37_shW_H3K9_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC37_shW_H3K9_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_H3K9_repeat.dm3 m1 v2
+				longLabel shW_H3K9_repeat.dm3 m1 v2
+				parent multiWigAC37_shW_H3K9_repeat.dm3.v2
+				type bigWig
+				color 0,204,102
+
+
+		track multiWigAC39_shW_H3K4_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K4_repeat
+		longLabel ChIP and Input track of shW_H3K4_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 45
+
+				track AC35_shW_input_repeat.dm3.v22
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC35_shW_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input_repeat.dm3 m1 v2
+				longLabel shW_input_repeat.dm3 m1 v2
+				parent multiWigAC39_shW_H3K4_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC39_shW_H3K4_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC39_shW_H3K4_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_H3K4_repeat.dm3 m1 v2
+				longLabel shW_H3K4_repeat.dm3 m1 v2
+				parent multiWigAC39_shW_H3K4_repeat.dm3.v2
+				type bigWig
+				color 153,51,255
+
+
+		track multiWigAC41_shW_H3K36_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K36_repeat
+		longLabel ChIP and Input track of shW_H3K36_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 55
+
+				track AC35_shW_input_repeat.dm3.v23
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC35_shW_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input_repeat.dm3 m1 v2
+				longLabel shW_input_repeat.dm3 m1 v2
+				parent multiWigAC41_shW_H3K36_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC41_shW_H3K36_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC41_shW_H3K36_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_H3K36_repeat.dm3 m1 v2
+				longLabel shW_H3K36_repeat.dm3 m1 v2
+				parent multiWigAC41_shW_H3K36_repeat.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC43_shW_HP1_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_HP1_repeat
+		longLabel ChIP and Input track of shW_HP1_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 65
+
+				track AC35_shW_input_repeat.dm3.v24
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC35_shW_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input_repeat.dm3 m1 v2
+				longLabel shW_input_repeat.dm3 m1 v2
+				parent multiWigAC43_shW_HP1_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC43_shW_HP1_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC43_shW_HP1_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_HP1_repeat.dm3 m1 v2
+				longLabel shW_HP1_repeat.dm3 m1 v2
+				parent multiWigAC43_shW_HP1_repeat.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC45_shW_polII_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_polII_repeat
+		longLabel ChIP and Input track of shW_polII_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 35
+
+				track AC35_shW_input_repeat.dm3.v25
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC35_shW_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_input_repeat.dm3 m1 v2
+				longLabel shW_input_repeat.dm3 m1 v2
+				parent multiWigAC45_shW_polII_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC45_shW_polII_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC45_shW_polII_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shW_polII_repeat.dm3 m1 v2
+				longLabel shW_polII_repeat.dm3 m1 v2
+				parent multiWigAC45_shW_polII_repeat.dm3.v2
+				type bigWig
+				color 0,128,255
+
+
+		track multiWigAC38_shSv210_H3K9_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_H3K9_repeat
+		longLabel ChIP and Input track of shSv210_H3K9_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 25
+
+				track AC36_shSv210_input_repeat.dm3.v21
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC36_shSv210_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input_repeat.dm3 m1 v2
+				longLabel shSv210_input_repeat.dm3 m1 v2
+				parent multiWigAC38_shSv210_H3K9_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC38_shSv210_H3K9_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC38_shSv210_H3K9_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_H3K9_repeat.dm3 m1 v2
+				longLabel shSv210_H3K9_repeat.dm3 m1 v2
+				parent multiWigAC38_shSv210_H3K9_repeat.dm3.v2
+				type bigWig
+				color 0,204,102
+
+
+		track multiWigAC40_shSv210_H3K4_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_H3K4_repeat
+		longLabel ChIP and Input track of shSv210_H3K4_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 45
+
+				track AC36_shSv210_input_repeat.dm3.v22
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC36_shSv210_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input_repeat.dm3 m1 v2
+				longLabel shSv210_input_repeat.dm3 m1 v2
+				parent multiWigAC40_shSv210_H3K4_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC40_shSv210_H3K4_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC40_shSv210_H3K4_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_H3K4_repeat.dm3 m1 v2
+				longLabel shSv210_H3K4_repeat.dm3 m1 v2
+				parent multiWigAC40_shSv210_H3K4_repeat.dm3.v2
+				type bigWig
+				color 153,51,255
+
+
+		track multiWigAC42_shSv210_H3K36_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_H3K36_repeat
+		longLabel ChIP and Input track of shSv210_H3K36_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 55
+
+				track AC36_shSv210_input_repeat.dm3.v23
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC36_shSv210_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input_repeat.dm3 m1 v2
+				longLabel shSv210_input_repeat.dm3 m1 v2
+				parent multiWigAC42_shSv210_H3K36_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC42_shSv210_H3K36_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC42_shSv210_H3K36_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_H3K36_repeat.dm3 m1 v2
+				longLabel shSv210_H3K36_repeat.dm3 m1 v2
+				parent multiWigAC42_shSv210_H3K36_repeat.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC44_shSv210_HP1_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_HP1_repeat
+		longLabel ChIP and Input track of shSv210_HP1_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 65
+
+				track AC36_shSv210_input_repeat.dm3.v24
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC36_shSv210_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input_repeat.dm3 m1 v2
+				longLabel shSv210_input_repeat.dm3 m1 v2
+				parent multiWigAC44_shSv210_HP1_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC44_shSv210_HP1_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC44_shSv210_HP1_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_HP1_repeat.dm3 m1 v2
+				longLabel shSv210_HP1_repeat.dm3 m1 v2
+				parent multiWigAC44_shSv210_HP1_repeat.dm3.v2
+				type bigWig
+				color 192,192,192
+
+
+		track multiWigAC46_shSv210_polII_repeat.dm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shSv210_polII_repeat
+		longLabel ChIP and Input track of shSv210_polII_repeat
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 35
+
+				track AC36_shSv210_input_repeat.dm3.v25
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC36_shSv210_input_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_input_repeat.dm3 m1 v2
+				longLabel shSv210_input_repeat.dm3 m1 v2
+				parent multiWigAC46_shSv210_polII_repeat.dm3.v2
+				type bigWig
+				color 255,152,152
+
+				track AC46_shSv210_polII_repeat.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/AC46_shSv210_polII_repeat.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel shSv210_polII_repeat.dm3 m1 v2
+				longLabel shSv210_polII_repeat.dm3 m1 v2
+				parent multiWigAC46_shSv210_polII_repeat.dm3.v2
+				type bigWig
+				color 0,128,255
+
+
+
+		track multiWig_SUMO_shSmt3_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP SUMO_shSmt3_HEK9_IP_1_50bp.dm3 m1 v2
+		longLabel ChIP and Input track of SUMO_shSmt3_HEK9_IP_1_50bp.dm3 m1 v2
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track SUMO_shSmt3_HEK9_Input_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig1
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL31_shSmt3_HEK9_Input_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shSmt3_HEK9_Input_1_50bp.dm3 m1 v2
+				longLabel SUMO_shSmt3_HEK9_Input_1_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shSmt3_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 255,152,152
+
+				track SUMO_shSmt3_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL32_shSmt3_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shSmt3_HEK9_IP_1_50bp.dm3 m1 v2
+				longLabel SUMO_shSmt3_HEK9_IP_1_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shSmt3_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 0,204,102
+
+
+		track multiWig_SUMO_shSmt3_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP SUMO_shSmt3_HEK9_IP_2_50bp.dm3 m1 v2
+		longLabel ChIP and Input track of SUMO_shSmt3_HEK9_IP_2_50bp.dm3 m1 v2
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track SUMO_shSmt3_HEK9_Input_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig2
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL35_shSmt3_HEK9_Input_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shSmt3_HEK9_Input_2_50bp.dm3 m1 v2
+				longLabel SUMO_shSmt3_HEK9_Input_2_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shSmt3_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 255,152,152
+
+				track SUMO_shSmt3_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL36_shSmt3_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shSmt3_HEK9_IP_2_50bp.dm3 m1 v2
+				longLabel SUMO_shSmt3_HEK9_IP_2_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shSmt3_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 0,204,102
+
+
+		track multiWig_SUMO_shW_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP SUMO_shW_HEK9_IP_2_50bp.dm3 m1 v2
+		longLabel ChIP and Input track of SUMO_shW_HEK9_IP_2_50bp.dm3 m1 v2
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track SUMO_shW_HEK9_Input_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig3
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL33_shW_HEK9_Input_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shW_HEK9_Input_2_50bp.dm3 m1 v2
+				longLabel SUMO_shW_HEK9_Input_2_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shW_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 255,152,152
+
+				track SUMO_shW_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL34_shW_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shW_HEK9_IP_2_50bp.dm3 m1 v2
+				longLabel SUMO_shW_HEK9_IP_2_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shW_HEK9_IP_2_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 0,204,102
+
+
+		track multiWig_SUMO_shW_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP SUMO_shW_HEK9_IP_1_50bp.dm3 m1 v2
+		longLabel ChIP and Input track of SUMO_shW_HEK9_IP_1_50bp.dm3 m1 v2
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track SUMO_shW_HEK9_Input_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig4
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL29_shW_HEK9_Input_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shW_HEK9_Input_1_50bp.dm3 m1 v2
+				longLabel SUMO_shW_HEK9_Input_1_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shW_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 255,152,152
+
+				track SUMO_shW_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				bigDataUrl http://california.caltech.edu/~ninova/sv210_tracks/YL30_shW_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel SUMO_shW_HEK9_IP_1_50bp.dm3 m1 v2
+				longLabel SUMO_shW_HEK9_IP_1_50bp.dm3 m1 v2
+				parent multiWig_SUMO_shW_HEK9_IP_1_50bp.dm3.v2.m1.s.NH.unstr.bigWig
+				type bigWig
+				color 0,204,102
+
+
+
+
