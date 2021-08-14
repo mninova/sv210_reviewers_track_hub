@@ -16,8 +16,8 @@ html examplePage
 		color 100,50,100
 		type bigWig
 		
-		track bigWigAC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.xminus
-		bigDataUrl http://california.caltech.edu/~ninova/AC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.xminus.bigWig
+		track bigWigAC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.minus
+		bigDataUrl http://california.caltech.edu/~ninova/AC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.minus.bigWig
 		shortLabel piRNA_minus_shW_totalRNA_r1 m1 
 		parent piRNA_23_29
 		viewLimits 0:5
