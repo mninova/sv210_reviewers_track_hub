@@ -1,3 +1,30 @@
+track piRNA_23_29
+type bigWig
+compositeTrack on
+shortLabel composite track of piRNA
+longLabel composite track of piRNA
+visibility full
+maxHeightPixels 30:30:11
+priority 10
+html examplePage
+
+		track bigWigAC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.plus
+		bigDataUrl http://california.caltech.edu/~ninova/AC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.plus.bigWig
+		shortLabel piRNA_plus_shSv210_totalRNA_r1 m1 v2
+		parent piRNA_23_29
+		viewLimits 0:5
+		color 100,50,100
+		type bigWig
+		
+		track bigWigAC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.xminus
+		bigDataUrl http://california.caltech.edu/~ninova/AC01_shW_sRNA.rRNAun.dm3.v0.m1.s.NH.23to29.xminus.bigWig
+		shortLabel piRNA_minus_shW_totalRNA_r1 m1 
+		parent piRNA_23_29
+		viewLimits 0:5
+		color 100,50,100
+		type bigWig
+
+
 track KFT_total_RNA_plus
 type bigWig
 compositeTrack on
@@ -188,6 +215,65 @@ superTrack on show
 shortLabel superTrackChIP unique
 longLabel This supertrack showshows ChIP data norm. with unique mappers
 html examplePage
+
+		track multiWig479_H3K9ChIPdm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shW_H3K9_Piwi
+		longLabel ChIP and Input track of shW_H3K9_Piwi
+		type bigWig
+		visibility full
+		viewLimits 0:5
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track 479_input.dm3.v21
+				bigDataUrl http://california.caltech.edu/~ninova/479_H3K9ChIP_Input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel 479_input.dm3 m1 v2
+				longLabel 479_input.dm3 m1 v2
+				parent multiWig479_H3K9ChIPdm3.v2
+				type bigWig
+				color 255,152,152
+
+				track 479_H3K9.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/479_H3K9ChIP_IP.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel 479_H3K9.dm3 m1 v2
+				longLabel 479_H3K9.dm3 m1 v2
+				parent multiWig479_H3K9ChIPdm3.v2
+				type bigWig
+				color 0,204,102
+
+		track multiWig484_H3K9ChIPdm3.v2
+		parent superChip_uniquemappers
+		container multiWig
+		shortLabel ChIP shPiwi_H3K9_Piwi
+		longLabel ChIP and Input track of shPiwi_H3K9_Piwi
+		type bigWig
+		visibility full
+		viewLimits 0:3
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
+		maxHeightPixels 30:30:10
+		priority 20
+
+				track 484_input.dm3.v21
+				bigDataUrl http://california.caltech.edu/~ninova/484_H3K9ChIP_Input.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel 484_input.dm3 m1 v2
+				longLabel 484_input.dm3 m1 v2
+				parent multiWig484_H3K9ChIPdm3.v2
+				type bigWig
+				color 255,152,152
+
+				track 484_H3K9.dm3.v2
+				bigDataUrl http://california.caltech.edu/~ninova/484_H3K9ChIP_IP.dm3.v2.m1.s.NH.unstr.bigWig
+				shortLabel 484_H3K9.dm3 m1 v2
+				longLabel 484_H3K9.dm3 m1 v2
+				parent multiWig484_H3K9ChIPdm3.v2
+				type bigWig
+				color 0,204,102
+
 
 		track multiWigAC17_shW_H3K9.dm3.v2
 		parent superChip_uniquemappers
